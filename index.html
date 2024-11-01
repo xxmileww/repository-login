@@ -8,17 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/57d81c4fcf.js" crossorigin="anonymous"></script>
     <title>Login</title>
 
 </head>
 <body>
     <div class="box1">
-        <h1>Login</h1>
-       <input type="email" placeholder="Email">
-       <br>
-       <input type="password" placeholder="Password">
-       <br>
-       <button type="submit">Login</button>
-    </div>
+        <h1>SIGN IN</h1>
+        <form action="" method="post">
+                <div class="input1">
+                    <i class="fa-solid fa-envelope"></i>  
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input1">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="button">
+                    <button type="submit">Login</button>
+                </div>
+                <br>
+            </form>
+            <a href="index2.html">Forgot password?</a> 
+            <br> 
+            <div class="registrer">
+                <p>Don't have an account? 
+                    <a href="index3.html">Register</a> </p>
+                </div>
+            </div>
 </body>
 </html>

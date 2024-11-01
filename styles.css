@@ -1,18 +1,73 @@
+* {box-sizing: border-box;
+}
+
 body {height: 100%;
 }
 
 .box1 {position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%); 
+}
+
 h1 {font-family: "Outfit", sans-serif;
 font-weight: 600;
+display: flex; 
+justify-content: center;
 }
 
 input {font-family: "Outfit", sans-serif;
-font-weight: 400;
+font-weight: 400; 
+font-size: medium;
+width: 100%;
+}
+
+form .input1 {position: relative;
+}
+
+form .input1 input {margin-bottom: 0.75rem;
+    outline: none;
+    padding: 15px 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 2px; 
+    transition: transform 0.5s ease;
+}
+
+form .input1 i {position: absolute;
+margin-left: 0.2rem;
+top: 1.050rem;
+text-align: center;
+}
+
+.input1 input:hover {transform: translateY(-0.75rem);
+transition: transform 0.5s ease;
 }
 
 button {font-family: "Outfit", sans-serif;
-font-weight: 500;
+font-weight: 600;
+font-size: medium;
+width: 100%;
+padding: 10px 2px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+
+button:hover {background-color: #D7D6D6;
+    transition: transform 0.5s ease;
+} 
+
+button:active {background-color: #8D8D92;
+    transition: transform 0.5s ease;
+}
+
+.button {display: flex; 
+justify-content: center;
+}
+a {font-family: "Outfit", sans-serif;
+}
+
+.registrer {font-family: "Outfit", sans-serif;
 }
