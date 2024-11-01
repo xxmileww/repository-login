@@ -53,6 +53,7 @@ padding: 10px 2px;
 border: none;
 border-radius: 10px;
 cursor: pointer;
+background-color: #f0f0f0;
 }
 
 button:hover {background-color: #D7D6D6;
