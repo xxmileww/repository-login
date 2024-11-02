@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test page 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/register.png" sizes="32x32" />
+    <link rel="stylesheet" href="styless.css" />
+    <title>Register</title>
 </head>
 <body>
-   <p>Just a second test page</p>
+ <section class="box1">
+    <h2>Registration</h2>
+    <div class="form">
+        <form>
+            <input required type="text" name="name" id="text" placeholder="Name"/>
+            <br>
+            <input required type="email" name="email" id="email" placeholder="Email" />
+            <br>
+            <input required type="password" name="password" id="password" placeholder="Password" />
+            <br>
+            <input required type="password" name="password" id="password" placeholder="Confirm password" />
+        </form>
+        <button type="submit">Register now</button>
+        <p>Alredy have an account? <a href="index.html">Login now</a></p>
+    </div>
+ </section>
 </body>
 </html>
