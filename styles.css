@@ -8,6 +8,8 @@ body {height: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
+    display: flex;
+    justify-content: center;
 }
 
 h1 {font-family: "Outfit", sans-serif;
@@ -23,7 +25,7 @@ width: 100%;
 }
 
 form .input1 {position: relative;
-}
+} 
 
 form .input1 input {margin-bottom: 0.75rem;
     outline: none;
