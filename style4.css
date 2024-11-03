@@ -35,9 +35,10 @@ p {font-family: "Outfit", sans-serif;
 font-weight: 400;
 }
 
-button {font-family: "Outfit", sans-serif;
+.button {font-family: "Outfit", sans-serif;
     font-weight: 600;
     font-size: medium;
+    text-align: center;
     width: 100%;
     padding: 10px 2px;
     border: none;
@@ -49,14 +50,6 @@ button {font-family: "Outfit", sans-serif;
     top: 130%;
     }
 
-    button:hover {background-color: #D7D6D6;
-        transition: transform 0.5s ease;
-    } 
-    
-    button:active {background-color: #8D8D92;
-        transition: transform 0.5s ease;
-    }
-    
     .button {display: flex; 
     justify-content: center;
     }

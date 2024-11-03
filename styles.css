@@ -35,7 +35,7 @@ form .input1 input {margin-bottom: 0.75rem;
     transition: transform 0.5s ease;
 }
 
-.enlace-boton a {text-decoration: none;
+.button a {text-decoration: none;
     color: black;
 }
 
@@ -49,8 +49,9 @@ text-align: center;
 transition: transform 0.5s ease;
 }
 
-button {font-family: "Outfit", sans-serif;
+.button a {font-family: "Outfit", sans-serif;
 font-weight: 600;
+text-align: center;
 font-size: medium;
 width: 100%;
 padding: 10px 2px;
@@ -59,14 +60,6 @@ border-radius: 10px;
 cursor: pointer;
 background-color: #f0f0f0;
 color:black
-}
-
-button:hover {background-color: #D7D6D6;
-    transition: transform 0.5s ease;
-} 
-
-button:active {background-color: #8D8D92;
-    transition: transform 0.5s ease;
 }
 
 .button {display: flex; 
