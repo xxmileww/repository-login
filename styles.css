@@ -35,6 +35,10 @@ form .input1 input {margin-bottom: 0.75rem;
     transition: transform 0.5s ease;
 }
 
+.button a {text-decoration: none;
+    color: black;
+}
+
 form .input1 i {position: absolute;
 margin-left: 0.2rem;
 top: 1.050rem;
